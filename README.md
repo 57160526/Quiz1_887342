@@ -51,5 +51,6 @@ US_states = 	{"Alabama" => "AL",
 	"West Virginia" => "WV",
 	"Wisconsin" => "WI",
 	"Wyoming" => "WY"}
-US_states.sort {|key, value| puts value <=> key}
+
 US_states.each {|key,value|puts"#{key}:#{value}" if("#{value[1]}"=="T"||"#{value[1]}"=="N")}
+US_states.sort_by{|key,value|puts "#{key}:#{value}"}
