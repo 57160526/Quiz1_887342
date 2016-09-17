@@ -1,4 +1,5 @@
 # Quiz1_887342
+ลืมการPull ค่ะ
 US_states = 	{"Alabama" => "AL",
 	"Alaska" => "AK",
 	"Arizona" => "AZ",
